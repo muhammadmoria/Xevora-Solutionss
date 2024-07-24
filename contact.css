@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+header .logo img {
+    margin-left: 20px;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+nav ul li {
+    margin: 0 15px;
+}
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+  
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+  
+/* Contact Section Styles */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+  
+.contact h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+  
+.contact p {
+    margin-bottom: 40px;
+    color: #555;
+    font-size: 1.1em;
+}
+  
+.contact-form {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+}
+  
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+  
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+.contact-form textarea {
+    resize: vertical;
+}
+  
+.contact-form .checkboxes {
+    text-align: left;
+}
+  
+.contact-form .checkboxes label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+  
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.contact-form button:hover {
+    background-color: #575757;
+}
+  
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.footer-logo img {
+    max-width: 150px;
+    height: auto;
+}
+  
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+  
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+}
+  
+.footer-links a:hover {
+    color: #007bff;
+}
+  
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+  
+.footer-social a:hover {
+    color: #007bff;
+}
+  
+.footer-text {
+    margin-top: 20px;
+}
